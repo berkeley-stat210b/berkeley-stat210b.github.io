@@ -13,19 +13,19 @@
 # you will see them accessed via \{\{ site.title \}\}, \{\{ site.github_repo \}\}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via \{\{ site.myvariable \}\}.
-title: "Stat 210b: Advanced Theory of Statistics"
+title: "Stat 210b: Theoretical Statistics"
 tagline: Course Overview
-description: "A survey of mathematical statistics: in particular both small and large sample theorems of hypothesis testing, point estimation, and confidence intervals with applications to topics such as exponential families, univariate and multivariate linear models and nonparametric inference. "
+description: "Introduction to modern theory of statistics; empirical processes, influence functions, M-estimation, U and V statistics and associated stochastic decompositions; non-parametric function estimation and associated minimax theory; semiparametric models; Monte Carlo methods and bootstrap methods; distributionfree and equivariant procedures; topics in machine learning. Topics covered may vary with instructor. "
 author: "SCF"
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://stat210b.berkeley.edu'
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 logo: 'resources/logo.png'
 
-ga_tracking: "G-TQWYRQFM3B"
+ga_tracking: "G-"
 
 # Theme settings
-remote_theme: just-the-docs/just-the-docs@v0.7.0
+remote_theme: just-the-docs/just-the-docs@v0.10.1
 color_scheme: light
 search_enabled: true
 heading_anchors: true
